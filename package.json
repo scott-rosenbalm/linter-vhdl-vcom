@@ -1,0 +1,27 @@
+{
+  "name": "linter-verilog-vlog",
+  "main": "./lib/init",
+  "version": "2.0.1",
+  "description": "Atom linter for Verilog, using Mentor ModelSim/QuestaSim vlog compiler.",
+  "keywords": [
+    "verilog",
+    "vlog",
+    "linter",
+    "compiler"
+  ],
+  "repository": "https://github.com/atom/linter-verilog-vlog2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "package-deps": [
+    "linter"
+  ],  
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}
